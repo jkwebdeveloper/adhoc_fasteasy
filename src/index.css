@@ -279,7 +279,7 @@ option a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px;
-  height: 108vh;
+  /* height: 108vh; */
   width: 100%;
   background-color: #3d3d3d;
 }
@@ -297,3 +297,64 @@ option a:hover {
   font-weight: 700;
 }
 /* ==============================  Menu Section css end ============================== */
+/* ==============================  Adhoc Section css start ============================== */
+.Adhoc_section {
+  padding-top: 4rem;
+}
+.adhoc_box {
+  padding-top: 1.5rem;
+}
+.Adhoc_heading {
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.adhoc_icon_bg {
+  width: 40px;
+  height: 40px;
+  background-color: #fbbe42;
+  margin-left: 20px;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: 9px;
+}
+.adhoc_icon {
+  position: relative;
+  font-size: 45px;
+}
+.adhoc_box h4 {
+  padding-top: 2rem;
+}
+.adhoc_box p {
+  font-size: 13px;
+}
+/* ==============================  Adhoc Section css end ============================== */
+.how_it_works_section {
+  padding-top: 5rem;
+}
+.how_it_works_heading {
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  /* padding-bottom: 2rem; */
+}
+.works_left_image {
+  float: right;
+  width: 10%;
+  margin-top: -5rem;
+}
+.how_it_works_section {
+  text-align: center;
+}
+
+.works_section {
+  padding: 50px 100px 0px 100px;
+}
+.works_content {
+  padding: 24px;
+  text-align: start;
+}
+.works_content p{
+  width: 69%;
+}

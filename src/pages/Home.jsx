@@ -4,6 +4,8 @@ import Partners from '../components/Partners'
 import About from '../components/About'
 import OurValues from '../components/OurValues'
 import BaseMenu from '../components/BaseMenu'
+import Adhoc from '../components/Adhoc'
+import HowWorks from '../components/HowWorks'
 
 const Home = () => {
   return (
@@ -18,6 +20,8 @@ const Home = () => {
         style={{ width: '100%' }}
       />
       <BaseMenu />
+      <Adhoc />
+      <HowWorks />
     </>
   )
 }
