@@ -35,6 +35,76 @@ const HowWorks = () => {
                 alt=""
               />
             </div>
+            <div className="line_img">
+              <img
+                src={require('../assets/images/How_Works/Vector 2.png')}
+                alt=""
+              />
+            </div>
+            <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+              <img
+                src={require('../assets/images/How_Works/Group 145.png')}
+                alt=""
+              />
+            </div>
+            <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+              <div className="works_content">
+                <h1>
+                  Custom QR code <br /> support
+                </h1>
+                <p>
+                  Our classy and personalized QR code holders make it easier for
+                  customers to be able to access your digital menu in a few
+                  days.
+                </p>
+              </div>
+            </div>
+            <div className="line_img">
+              <img
+                src={require('../assets/images/How_Works/Vector 3.png')}
+                alt=""
+              />
+            </div>
+            <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+              <div className="works_content">
+                <h1>Updates Can Be Done At Any Time</h1>
+                <p>
+                  Point, click, deploy. You can deploy hundreds of thousands up
+                  to tens of millions of OnPage code optimizations right from
+                  the Alli AI dashboard.
+                </p>
+              </div>
+            </div>
+            <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+              <img
+                src={require('../assets/images/How_Works/Group 47.png')}
+                alt=""
+              />
+            </div>
+            <div className="line_img">
+              <img
+                src={require('../assets/images/How_Works/Vector 2.png')}
+                alt=""
+              />
+            </div>
+            <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+              <img
+                src={require('../assets/images/How_Works/Group 45.png')}
+                alt=""
+              />
+            </div>
+            <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+              <div className="works_content">
+                <h1>
+                  Custom QR code <br /> support
+                </h1>
+                <p>
+                  Our classy and personalized QR code holders make it easier for
+                  customers to be able to access your digital menu in a few
+                  days.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

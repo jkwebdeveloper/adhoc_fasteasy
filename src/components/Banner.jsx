@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Banner = () => {
   return (
@@ -13,10 +13,11 @@ const Banner = () => {
             use of the new digitized menu through QR Codes. It is fast and also
             easy to use!
           </p>
+          <button className="hero_section_button">Become A Partner</button>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner

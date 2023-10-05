@@ -146,6 +146,18 @@ option a:hover {
   color: #fff;
   width: 76%;
 }
+.hero_section_button {
+  background-color: #fbbe42;
+  outline: none;
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  border-radius: 10px;
+}
+.hero_section_button:focus, .hero_section_button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
 /* ============================== Banner css end ============================== */
 
 /* .partners_slider {
@@ -337,6 +349,7 @@ option a:hover {
   font-size: 60px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 700;
   /* padding-bottom: 2rem; */
 }
 .works_left_image {
@@ -347,14 +360,20 @@ option a:hover {
 .how_it_works_section {
   text-align: center;
 }
-
+.works_content h1{
+  font-weight: 700;
+}
 .works_section {
   padding: 50px 100px 0px 100px;
 }
 .works_content {
-  padding: 24px;
+  padding: 24px 0px 0px 141px;
   text-align: start;
 }
-.works_content p{
-  width: 69%;
+.works_content p {
+  width: 89%;
+}
+
+.line_img {
+  padding-top: 2rem;
 }
