@@ -85,7 +85,7 @@ option a:hover {
 .mobile_menu {
   color: #fff;
   cursor: pointer;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-top: -1rem;
 }
 @media only screen and (min-width: 1025px) {
@@ -189,12 +189,16 @@ option a:hover {
   .Hero_section_bg {
     background-size: cover;
     background-position: center;
+    padding: 0px;
   }
   h1 {
     font-size: 30px;
   }
   .header_navbar {
-    padding-top: 2rem;
+    padding-top: 1rem;
+  }
+  .logo img {
+    width: 100px;
   }
 }
 /* ============================== Banner css end ============================== */
@@ -293,7 +297,6 @@ option a:hover {
   .right_content {
     padding-top: 0px;
   }
-  
 }
 @media only screen and (max-width: 768px) {
   .device_img {
