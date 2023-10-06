@@ -159,6 +159,40 @@ option a:hover {
   outline: none !important;
   box-shadow: none !important;
 }
+@media only screen and (min-width: 1025px) {
+  .mobile_menu {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .nav_link {
+    display: none;
+  }
+  .login_section p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero_section_content {
+    padding-top: 1rem;
+  }
+  .hero_section_content h1 {
+    font-size: 37px;
+  }
+  .hero_section_content h2 {
+    font-size: 37px;
+  }
+  .hero_section_content h3 {
+    font-size: 37px;
+  }
+  .Hero_section_bg {
+    background-size: cover;
+    background-position: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
 /* ============================== Banner css end ============================== */
 
 /* .partners_slider {
@@ -239,6 +273,65 @@ option a:hover {
   margin-top: 200px;
   width: 200px;
 }
+.mission_icon {
+  font-size: 35px;
+}
+.image_section_right {
+  float: right;
+  width: 130px;
+  margin-top: -16rem;
+}
+.image_section_left {
+  width: 200px;
+  position: absolute;
+}
+@media only screen and (max-width: 768px) {
+  .device_img {
+    gap: 20px;
+  }
+  .device_img .left_device {
+    position: relative;
+    width: 100px;
+    top: 65px;
+  }
+  .device_img .right_device {
+    position: relative;
+    width: 100px;
+  }
+  .bg_ellipse {
+    height: 18rem;
+    width: 18rem;
+  }
+  .bg_ellipse img {
+    height: 18rem;
+    width: 18rem;
+  }
+  .partners_section {
+    display: none;
+  }
+  .heading {
+    font-size: 33px;
+    text-align: center;
+  }
+  .right_content {
+    padding-right: 0;
+    width: 100%;
+    text-align: justify;
+    padding-top: 100px;
+  }
+  .icon_bg {
+    padding: 10px;
+  }
+  .image_section_right {
+    float: right;
+    width: 70px;
+    margin-top: -56rem;
+  }
+  .image_section_left {
+    width: 90px;
+    position: absolute;
+  }
+}
 /* ============================== About css end ============================== */
 /* ============================== Our values Section css Start ============================== */
 
@@ -257,13 +350,15 @@ option a:hover {
 }
 .values_box {
   width: 300px;
+  height: -moz-fit-content;
   height: fit-content;
   background: fff;
   box-shadow: 0px 15px 50px 0px rgba(0, 0, 0, 0.09);
   padding: 23px;
-  margin-top: 49px;
+  margin-top: 80px;
   position: relative;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 .icon_ {
   background: #ffb800;
@@ -283,6 +378,23 @@ option a:hover {
   font-weight: 600;
   line-height: 27px; /* 135% */
   text-transform: capitalize;
+}
+@media only screen and (max-width: 768px) {
+  .our_values_heading {
+    font-size: 33px;
+  }
+  .values_box {
+    margin-top: 15px;
+  }
+  .menu_left_content h1 {
+    font-size: 30px;
+  }
+  .base_right_img {
+    text-align: center;
+  }
+  .base_right_img img {
+    width: 100%;
+  }
 }
 /* ============================== Our Values Section css end ============================== */
 /* ============================== Menu Section css start ============================== */
@@ -342,6 +454,17 @@ option a:hover {
 .adhoc_box p {
   font-size: 13px;
 }
+@media only screen and (max-width: 768px) {
+  .Adhoc_heading {
+    font-size: 30px;
+  }
+  .adhoc_box {
+    text-align: center;
+  }
+  .adhoc_icon_bg {
+    margin-left: 140px;
+  }
+}
 /* ==============================  Adhoc Section css end ============================== */
 .how_it_works_section {
   padding-top: 5rem;
@@ -378,7 +501,29 @@ option a:hover {
 .line_img {
   padding-top: 2rem;
 }
-
+@media only screen and (max-width: 768px) {
+  .how_it_works_section h1 {
+    font-size: 20px;
+    padding-top: 2rem;
+  }
+  .works_left_image {
+    float: right;
+    width: 18%;
+    margin-top: -18rem;
+  }
+  .works_section {
+    padding: 10px;
+  }
+  .works_content {
+    padding: 0px;
+  }
+  .line_img img {
+    width: 50%;
+  }
+  .sell_img {
+    width: 223px;
+  }
+}
 /* ==============================  OurPricing Section css start ============================== */
 .how_it_works_heading {
   font-size: 60px;
@@ -389,7 +534,7 @@ option a:hover {
   /* padding-bottom: 2rem; */
   padding-top: 2rem;
 }
-.product_main{
+.product_main {
   padding: 80px 0px 100px 0px;
 }
 .pricing_dec {
@@ -464,5 +609,34 @@ option a:hover {
 .right_scenner {
   text-align: center;
   padding: 6rem;
+}
+.right_scenner h1{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+.how_it_works_heading {
+  font-size: 33px;
+}
+.pricing_dec {
+  font-size: 14px;
+}
+.product_title {
+  font-size: 33px;
+  font-weight: 700;
+}
+.product_content {
+  padding: 0px;
+}
+.pro_img img {
+  width: 217px;
+}
+.right_scenner {
+  padding: 0px;
+  padding-top: 2rem;
+}
+.right_scenner h1{
+  font-size: 33px;
+}
 }
 /* ==============================  OurPricing Section css End ============================== */

@@ -33,6 +33,7 @@ const HowWorks = () => {
               <img
                 src={require('../assets/images/How_Works/Group 201.png')}
                 alt=""
+                className='sell_img'
               />
             </div>
             <div className="line_img">
@@ -45,6 +46,7 @@ const HowWorks = () => {
               <img
                 src={require('../assets/images/How_Works/Group 145.png')}
                 alt=""
+                className='sell_img'
               />
             </div>
             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
@@ -79,6 +81,7 @@ const HowWorks = () => {
               <img
                 src={require('../assets/images/How_Works/Group 47.png')}
                 alt=""
+                className='sell_img'
               />
             </div>
             <div className="line_img">
@@ -91,6 +94,7 @@ const HowWorks = () => {
               <img
                 src={require('../assets/images/How_Works/Group 45.png')}
                 alt=""
+                className='sell_img'
               />
             </div>
             <div className="col-12 col-lg-6 col-md-6 col-sm-12">

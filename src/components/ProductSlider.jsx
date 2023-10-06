@@ -126,12 +126,12 @@ const ProductSlider = () => {
 
           <div className="product_content">
             <div className="row">
-              <div className="col-6">
+              <div className="col-lg-6 col-sm-12">
                 <div className="pro_img">
                   <img src={require('../assets/images/Group 173.png')} alt="" />
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-lg-6 col-sm-12">
                 <div className="right_scenner">
                   <h1>try me !</h1>
                   <p>

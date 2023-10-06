@@ -6,16 +6,16 @@ const OurValues = () => {
     <div className="our_values_section container">
       <div className="our_values_heading">our values</div>
       <div className="row">
-        <div className="col-12 col-lg-3 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12">
           <OurValuesBox />
         </div>
-        <div className="col-12 col-lg-3 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12">
           <OurValuesBox />
         </div>
-        <div className="col-12 col-lg-3 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12">
           <OurValuesBox />
         </div>
-        <div className="col-12 col-lg-3 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12">
           <OurValuesBox />
         </div>
       </div>

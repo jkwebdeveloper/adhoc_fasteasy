@@ -33,7 +33,7 @@ const About = () => {
               <h1 className="heading">About us</h1>
               <div className="mission_content">
                 <div className="icon_bg">
-                  <GoGoal />
+                  <GoGoal className='mission_icon'/>
                 </div>
                 <div className="mission_dec">
                   <h1 className="mission_heading">Mission</h1>
@@ -49,7 +49,7 @@ const About = () => {
               </div>
               <div className="mission_content">
                 <div className="icon_bg">
-                  <GoGoal />
+                  <GoGoal className='mission_icon'/>
                 </div>
                 <div className="mission_dec">
                   <h1 className="mission_heading">Mission</h1>
@@ -72,14 +72,14 @@ const About = () => {
         <img
           src={require('../assets/images/Aboutus/wepik-export-20230916053428CryK (1).png')}
           alt=""
-          style={{ float: 'right', width: '130px', marginTop: '-16rem' }}
+          className='image_section_right'
         />
         {/* </div> */}
         {/* <div className="image_section-right_img"> */}
         <img
           src={require('../assets/images/Aboutus/wepik-export-20230922124139YGRP 1.png')}
           alt=""
-          style={{ width: '200px', position: "absolute" }}
+          className='image_section_left'
         />
         {/* </div> */}
       </div>

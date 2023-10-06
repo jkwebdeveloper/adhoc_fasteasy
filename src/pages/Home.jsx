@@ -8,6 +8,7 @@ import Adhoc from '../components/Adhoc'
 import HowWorks from '../components/HowWorks'
 import OurPricing from '../components/OurPricing'
 import ProductSlider from '../components/ProductSlider'
+import PosIntegrations from '../components/PosIntegrations'
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <HowWorks />
       <OurPricing />
       <ProductSlider />
+      <PosIntegrations />
     </>
   )
 }

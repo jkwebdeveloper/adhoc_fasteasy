@@ -7,16 +7,16 @@ const Adhoc = () => {
       <div className="container">
         <h1 className="Adhoc_heading">why use adhoc ?</h1>
         <div className="row">
-          <div className="col-12 col-lg-3 col-md-3 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <AdhocBox />
           </div>
-          <div className="col-12 col-lg-3 col-md-3 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <AdhocBox />
           </div>
-          <div className="col-12 col-lg-3 col-md-3 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <AdhocBox />
           </div>
-          <div className="col-12 col-lg-3 col-md-3 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <AdhocBox />
           </div>
         </div>

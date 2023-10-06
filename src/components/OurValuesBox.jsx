@@ -2,8 +2,8 @@ import React from 'react'
 
 const OurValuesBox = () => {
   return (
-    <div className="row my-5">
-      <div className="col-3">
+    <div className="row">
+      <div className="col-3 col-sm-6">
         <div className="values_box">
           <div className="icon_"></div>
           <div className="content">
