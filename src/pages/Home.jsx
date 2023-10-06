@@ -6,6 +6,8 @@ import OurValues from '../components/OurValues'
 import BaseMenu from '../components/BaseMenu'
 import Adhoc from '../components/Adhoc'
 import HowWorks from '../components/HowWorks'
+import OurPricing from '../components/OurPricing'
+import ProductSlider from '../components/ProductSlider'
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
       <BaseMenu />
       <Adhoc />
       <HowWorks />
+      <OurPricing />
+      <ProductSlider />
     </>
   )
 }

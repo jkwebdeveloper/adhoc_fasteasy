@@ -154,7 +154,8 @@ option a:hover {
   border: none;
   border-radius: 10px;
 }
-.hero_section_button:focus, .hero_section_button:active {
+.hero_section_button:focus,
+.hero_section_button:active {
   outline: none !important;
   box-shadow: none !important;
 }
@@ -360,7 +361,7 @@ option a:hover {
 .how_it_works_section {
   text-align: center;
 }
-.works_content h1{
+.works_content h1 {
   font-weight: 700;
 }
 .works_section {
@@ -377,3 +378,91 @@ option a:hover {
 .line_img {
   padding-top: 2rem;
 }
+
+/* ==============================  OurPricing Section css start ============================== */
+.how_it_works_heading {
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  /* padding-bottom: 2rem; */
+  padding-top: 2rem;
+}
+.product_main{
+  padding: 80px 0px 100px 0px;
+}
+.pricing_dec {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+.pricing_box {
+  background: #fff;
+  padding: 3rem;
+  border-radius: 15px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+.price p {
+  color: #a9a9a9;
+}
+.price strong {
+  font-size: 30px;
+  color: #000;
+}
+.sms {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+}
+.sms p {
+  color: #a9a9a9;
+}
+.sms_icon {
+  color: red;
+  /* font-size: 16px; */
+}
+.sms_green {
+  color: green;
+}
+.pos {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+.pos p {
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.price_section_button {
+  background-color: #fbbe42;
+  outline: none;
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  border-radius: 10px;
+}
+.product_title {
+  color: #000;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  /* width: 50%; */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.product_content {
+  padding: 50px 100px 0px 100px;
+}
+.pro_img {
+  text-align: center;
+}
+.right_scenner {
+  text-align: center;
+  padding: 6rem;
+}
+/* ==============================  OurPricing Section css End ============================== */
