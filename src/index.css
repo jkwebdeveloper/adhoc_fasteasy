@@ -85,7 +85,8 @@ option a:hover {
 .mobile_menu {
   color: #fff;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 3rem;
+  margin-top: -1rem;
 }
 @media only screen and (min-width: 1025px) {
   .mobile_menu {
@@ -192,6 +193,9 @@ option a:hover {
   h1 {
     font-size: 30px;
   }
+  .header_navbar {
+    padding-top: 2rem;
+  }
 }
 /* ============================== Banner css end ============================== */
 
@@ -285,6 +289,12 @@ option a:hover {
   width: 200px;
   position: absolute;
 }
+@media screen and (min-width: 768px) {
+  .right_content {
+    padding-top: 0px;
+  }
+  
+}
 @media only screen and (max-width: 768px) {
   .device_img {
     gap: 20px;
@@ -325,7 +335,7 @@ option a:hover {
   .image_section_right {
     float: right;
     width: 70px;
-    margin-top: -56rem;
+    margin-top: -52rem;
   }
   .image_section_left {
     width: 90px;
@@ -610,33 +620,33 @@ option a:hover {
   text-align: center;
   padding: 6rem;
 }
-.right_scenner h1{
+.right_scenner h1 {
   text-transform: uppercase;
   font-weight: 700;
 }
 @media only screen and (max-width: 768px) {
-.how_it_works_heading {
-  font-size: 33px;
-}
-.pricing_dec {
-  font-size: 14px;
-}
-.product_title {
-  font-size: 33px;
-  font-weight: 700;
-}
-.product_content {
-  padding: 0px;
-}
-.pro_img img {
-  width: 217px;
-}
-.right_scenner {
-  padding: 0px;
-  padding-top: 2rem;
-}
-.right_scenner h1{
-  font-size: 33px;
-}
+  .how_it_works_heading {
+    font-size: 33px;
+  }
+  .pricing_dec {
+    font-size: 14px;
+  }
+  .product_title {
+    font-size: 33px;
+    font-weight: 700;
+  }
+  .product_content {
+    padding: 0px;
+  }
+  .pro_img img {
+    width: 217px;
+  }
+  .right_scenner {
+    padding: 0px;
+    padding-top: 2rem;
+  }
+  .right_scenner h1 {
+    font-size: 33px;
+  }
 }
 /* ==============================  OurPricing Section css End ============================== */
