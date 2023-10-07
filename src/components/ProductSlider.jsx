@@ -26,8 +26,8 @@ const ProductSlider = () => {
           </h1>
           <Swiper
             // modules={[Pagination, Autoplay, Navigation]}
-            spaceBetween={20}
-            slidesPerView={3}
+            spaceBetween={40}
+            slidesPerView={2}
             loop={true}
             breakpoints={{
               320: {

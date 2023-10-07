@@ -9,6 +9,10 @@ import HowWorks from '../components/HowWorks'
 import OurPricing from '../components/OurPricing'
 import ProductSlider from '../components/ProductSlider'
 import PosIntegrations from '../components/PosIntegrations'
+import NutritionCal from '../components/NutritionCal'
+import Cta from '../components/Cta'
+import Blog from '../components/Blog'
+import Contact from '../components/Contact'
 
 const Home = () => {
   return (
@@ -28,6 +32,10 @@ const Home = () => {
       <OurPricing />
       <ProductSlider />
       <PosIntegrations />
+      <NutritionCal />
+      <Cta />
+      <Blog />
+      <Contact />
     </>
   )
 }

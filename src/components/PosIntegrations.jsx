@@ -2,7 +2,7 @@ import React from 'react'
 
 const PosIntegrations = () => {
   return (
-    <div className="container">
+    <div className="container text-center">
       <div className="pos_images">
         <img src={require('../assets/images/image 82.png')} alt="" />
         <img
